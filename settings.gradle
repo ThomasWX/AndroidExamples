@@ -1,1 +1,1 @@
-include ':app', ':ActionBarBasic', ':ActionBarStyled', ':ActionBarPopupMenu'
+include ':app', ':ActionBarBasic', ':ActionBarStyled', ':ActionBarPopupMenu', ':ActionBarShare'
