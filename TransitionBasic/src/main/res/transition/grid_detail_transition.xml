@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The transitions which us used for the entrance and exit of shared elements. Here we declare
+    two different transitions which are targeting specific views.
+    我们用于共享元素入口和出口的过渡。 我们在这里宣布针对特定观点的两种不同转换。
+-->
+<transitionSet >
+    <!-- changeBounds is used for the TextViews which are shared -->
+    <changeBounds />
+
+    <!-- changeImageTransform is used for the ImageViews which are shared -->
+    <changeImageTransform />
+</transitionSet>
