@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">运行时权限</string>
+
+
+    <string name="intro_message">
+        <![CDATA[
+            此示例显示了Android M及更高版本中可用的运行时权限。显示登录屏幕以执行该操作。
+            如果在Android M设备上执行，则会显示一个附加选项来访问联系人，该选项用可选的M及以上权限声明。
+        ]]>
+    </string>
+    <string name="ok">好</string>
+    <string name="contacts_string">联系人总数： %1$,d\n第一个联系人：<b>%2$s</b></string>
+    <string name="contacts_none">设备上未存储任何联系人。</string>
+    <string name="contacts_empty">未加载联系人。</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="show_contact">显示第一个联系人</string>
+    <string name="contacts_intro">该片段演示访问设备上的联系人数据库。\n
+            点击 \"添加联系人\" 添加一个名为 "__DUMMY ENTRY" 的新联系人 直接进入数据库。\n
+    点击 \"显示第一个联系人\" 访问联系人数据库以显示第一个联系人的姓名。</string>
+    <string name="camera_unavailable"><b>相机无法打开。</b>\n当照相机不可用时（例如已在使用中）或系统拒绝访问（例如禁用照相机访问时）时，会发生此情况。</string>
+    <string name="back">返回</string>
+    <string name="show_camera">显示相机预览</string>
+    <string name="show_contacts">显示并添加联系人</string>
+    <string name="main_introduction">点击下面的按钮以显示相机预览或访问联系人数据库。\n请注意，联系人选项仅适用于Android M，以说明在较低SDK平台上未请求的可选M-only权限的使用。</string>
+    <string name="permission_available_camera">相机权限已被授予。 预览现在可以打开。</string>
+    <string name="permission_available_contacts">联系人权限已被授予。 联系人屏幕现在可以打开。</string>
+    <string name="permissions_not_granted">权限未被授予。</string>
+    <string name="permission_camera_rationale">需要相机权限才能显示相机预览。</string>
+    <string name="permission_contacts_rationale">需要联系人权限才能证明访问权限。</string>
+</resources>
