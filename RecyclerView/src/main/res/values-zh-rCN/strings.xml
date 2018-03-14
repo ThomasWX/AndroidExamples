@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">回收者视图</string>
+
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+               演示如何使用RecyclerView与LinearLayoutManager和GridLayoutManager创建垂直列表。
+               点击“SHOW LOG”以查看绑定到其ViewHolder的元素。 日志还会显示您点击的元素。
+
+
+        ]]>
+    </string>
+
+    <string name="element_text">元素</string>
+    <string name="grid_layout_manager">网格布局管理器</string>
+    <string name="linear_layout_manager">线性布局管理器</string>
+
+
+    <string name="sample_show_log">显示日志</string>
+    <string name="sample_hide_log">隐藏日志</string>
+</resources>
