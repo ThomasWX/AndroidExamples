@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">作业调度程序</string>
+
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+            演示作业调度程序API，该作业调度程序API提供了在某些任务适用时调度后台任务的界面。
+
+
+        ]]>
+    </string>
+    <string name="onstoptask">停止任务</string>
+    <string name="onstarttask">启动任务</string>
+    <string name="defaultparamtext">任务参数将显示在这里。</string>
+    <string name="schedule_job_button_text">计划工作</string>
+    <string name="cancel_all_jobs_button_text">全部取消</string>
+    <string name="finish_job_button_text">完成上一个任务</string>
+    <string name="idle_mode_text">需要设备处于空闲模式。</string>
+    <string name="charging_caption">充电：</string>
+    <string name="charging_text">需要插入设备。</string>
+    <string name="idle_caption">闲：</string>
+    <string name="connectivity">连接：</string>
+    <string name="any">任何</string>
+    <string name="unmetered">WiFi</string>
+    <string name="timing">定时：</string>
+    <string name="delay">延迟：</string>
+    <string name="deadline">截止日期：</string>
+    <string name="work_duration">工作时间：</string>
+    <string name="cancelled_job">取消作业 %d</string>
+    <string name="no_jobs_to_cancel">没有工作要取消</string>
+    <string name="all_jobs_cancelled">所有作业已取消</string>
+
+</resources>
