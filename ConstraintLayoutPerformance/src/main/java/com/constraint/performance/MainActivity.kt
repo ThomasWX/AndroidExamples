@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_for_test)
+        setContentView(R.layout.activity_main)
 
         val traditionalCalcButton = findViewById<Button>(R.id.button_start_calc_traditional)
         val constraintCalcButton = findViewById<Button>(R.id.button_start_calc_constraint)

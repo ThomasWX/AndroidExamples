@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Support_CustomTabs</string>
+    <string name="git_hub_website">
+        http://blog.csdn.net/fei20121106/article/details/54410252
+        \n
+        https://github.com/GoogleChrome/custom-tabs-client</string>
+</resources>
