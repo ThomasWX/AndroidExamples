@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pdf渲染器</string>
+
+    <string name="app_name_with_index">Pdf渲染器 (%1$d/%2$d)</string>
+    <string name="info">信息</string>
+    <string name="previous">上一个</string>
+    <string name="next">下一个</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+            本示例演示如何使用Pdf渲染器在屏幕上显示PDF文档。
+
+
+        ]]>
+    </string>
+</resources>
