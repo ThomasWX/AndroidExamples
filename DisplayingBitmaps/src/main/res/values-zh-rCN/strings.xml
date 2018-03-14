@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">显示位图</string>
+
+
+    <string name="clear_cache_menu">清除缓存</string>
+    <string name="clear_cache_complete_toast">缓存已被清除</string>
+    <string name="imageview_description">图像缩略图</string>
+    <string name="no_network_connection_toast">未找到网络连接</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+            这是Android培训课程的示例应用程序
+            &quot;高效地显示位图&quot;
+            (http://developer.android.com/training/displaying-bitmaps/).\n\n
+            它演示了如何从主UI线程高效地加载大型位图，缓存位图（内存和磁盘），管理位图内存
+            以及在UI元素（如ViewPager和ListView / GridView）中显示位图。
+
+        ]]>
+    </string>
+</resources>

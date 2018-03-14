@@ -1,1 +1,1 @@
-include ':app', ':ActionBarBasic', ':ActionBarStyled', ':ActionBarPopupMenu', ':ActionBarShare', ':TransitionBasic', ':BasicNetworking', ':CardView', ':ConstraintLayout'
+include ':app', ':ActionBarBasic', ':ActionBarStyled', ':ActionBarPopupMenu', ':ActionBarShare', ':TransitionBasic', ':BasicNetworking', ':CardView', ':ConstraintLayout', ':ConstraintLayoutPerformance', ':DisplayingBitmaps'
