@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This drawable is used to style the list navigation spinner in our custom Action Bar theme.
+  The different items in this drawable are displayed when their selector state matches the view's
+  state.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/spinner_ab_disabled_styled" android:state_enabled="false"/>
+    <item android:drawable="@drawable/spinner_ab_pressed_styled" android:state_pressed="true"/>
+    <item android:drawable="@drawable/spinner_ab_focused_styled" android:state_focused="true"  android:state_pressed="false"/>
+    <item android:drawable="@drawable/spinner_ab_default_styled"/>
+</selector>

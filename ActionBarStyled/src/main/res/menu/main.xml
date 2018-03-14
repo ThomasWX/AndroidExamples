@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  As we're using ActionBarCompat, any action item attributes come from ActionBarCompat's XML
+  namespace instead of the android namespace. Here we've added a new support namespace added to
+  the menu element allowing us to use the 'showAsAction' attribute in a backwards compatible way.
+  Any other action item attributes used should be referenced from this namespace too
+  (actionProviderClass, actionViewClass, actionLayout).
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto">
+
+    <!--
+   Here we create all of the items to be displayed in the menu, setting support:showAsAction to
+   define how the item should be displayed on the compatible Action Bar.
+    -->
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/menu_refresh"
+        support:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/menu_location"
+        android:icon="@drawable/ic_action_location"
+        android:title="@string/menu_location"
+        support:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/menu_settings"
+        support:showAsAction="never" />
+</menu>
