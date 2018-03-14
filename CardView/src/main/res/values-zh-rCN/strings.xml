@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">卡片视图</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+            本示例演示了如何使用Android 5.0中支持库中引入的CardView。
+
+
+        ]]>
+    </string>
+
+    <string name="cardview_contents"> 这是一个CardView小部件。 CardView小部件可以有阴影和圆角。
+        \n\n为了创建一个带有阴影的卡片, 使用 <font fgcolor="#FFFFFFFF">android:elevation</font>
+        属性.
+        \n\n为了在布局中设置圆角, 使用 <font
+            fgcolor="#FFFFFFFF">card_view:cardCornerRadius</font> 属性.
+    </string>
+    <string name="cardview_radius_seekbar_text">半径</string>
+    <string name="cardview_elevation_seekbar_text">海拔</string>
+</resources>
