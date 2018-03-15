@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Support_Design</string>
+    <string name="website">
+        https://guides.codepath.com/android/Design-Support-Library
+        \n\n
+        http://blog.csdn.net/eclipsexys/article/details/46349721
+        \n\n
+        https://blog.leancloud.cn/3306/
+        \n\n
+        https://developer.android.google.cn/topic/libraries/support-library/packages.html
+        \n\n
+        https://developer.android.google.cn/reference/android/support/design/package-summary.html
+        \n\n
+        https://developer.android.google.cn/topic/libraries/support-library/features.html
+        \n\n
+        bing 国际搜索 Design Support Library
+    </string>
+</resources>
