@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.design.FloatingActionButton.FloatingButtonActivity"
+            android:label="@string/floating_action_button" />
     </application>
 
 </manifest>
