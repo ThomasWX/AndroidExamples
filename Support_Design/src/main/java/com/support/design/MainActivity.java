@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.design.FloatingActionButton.FloatingButtonActivity;
+import com.design.FloatingActionButton.FloatingMainActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = null;
         switch (view.getId()) {
             case R.id.floating_button:
-                intent = new Intent(this, FloatingButtonActivity.class);
+                intent = new Intent(this, FloatingMainActivity.class);
                 break;
         }
 
