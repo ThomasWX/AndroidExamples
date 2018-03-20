@@ -2,15 +2,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.template.tabbed.SwipeViewsActivity">
+
+
+    <item
+        android:id="@+id/action_swipe_views"
+        android:orderInCategory="100"
+        android:title="@string/menu_swipe_views"
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_actionbar_tabs"
         android:orderInCategory="100"
         android:title="@string/menu_actionbar_tabs"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_actionbar_spinner"
-        android:orderInCategory="100"
-        android:title="@string/menu_actionbar_spinner"
         app:showAsAction="never" />
 
 </menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">选项卡式Activity</string>
+
+    <string name="activity_swipe_views">滑动视图选项式活动</string>
+    <string name="activity_actionbar_tabs">操作栏选项卡活动</string>
+    <string name="activity_actionbar_spinner">操作栏微调器活动</string>
+
+
+
+    <string name="action_settings">设置</string>
+    <string name="section_format">Hello World from section(部分): %1$d</string>
+
+
+    <string name="menu_swipe_views">滑动视图样式</string>
+    <string name="menu_actionbar_tabs">操作栏选项卡样式</string>
+    <string name="menu_actionbar_spinner">操作栏微调样式</string>
+</resources>

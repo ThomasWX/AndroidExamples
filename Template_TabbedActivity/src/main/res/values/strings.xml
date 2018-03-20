@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">Template_TabbedActivity</string>
+
+    <string name="activity_swipe_views">SwipeViewsActivity</string>
+    <string name="activity_actionbar_tabs">ActionbarTabsActivity</string>
+    <string name="activity_actionbar_spinner">ActionbarSpinnerActivity</string>
+
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="menu_swipe_views">Swipe Views Style</string>
+    <string name="menu_actionbar_tabs">Actionbar Tabs Style</string>
+    <string name="menu_actionbar_spinner">Actionbar Spinner Style</string>
+
 </resources>
