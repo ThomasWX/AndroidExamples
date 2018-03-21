@@ -8,33 +8,28 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-
-    <!--Floating action button BEGIN-->
-
-    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+    <!--Project FloatingActionButtonBasic BEGIN-->
+    <!--模板-->
+    <!-- Activity themes -->
+    <!--
+    <style name="Theme.Base" parent="android:Theme.Light" />
+    <style name="Theme.Sample" parent="Theme.Base" />
+    <style name="AppTheme" parent="Theme.Sample" />
+    -->
+    <!-- Widget styling -->
+    <style name="Widget" />
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
     </style>
-
-    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.DayNight.NoActionBar">
-        <item name="colorPrimary">#673AB7</item>
-        <item name="colorPrimaryDark">#512DA8</item>
-        <item name="colorAccent">#FF4081</item>
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
     </style>
-
-    <style name="Widget.CardContent" parent="android:Widget">
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:paddingTop">24dp</item>
-        <item name="android:paddingBottom">24dp</item>
-        <item name="android:orientation">vertical</item>
-    </style>
-
-    <!--自定义-->
-    <style name="FloatingActionButton_Demo_Theme" parent="AppTheme">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <!--Floating action button END-->
+    <!--模板-->
+    <!--Project FloatingActionButtonBasic END-->
 
 
 </resources>

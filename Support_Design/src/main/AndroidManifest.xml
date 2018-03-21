@@ -16,12 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:theme="@style/FloatingActionButton_Demo_Theme"
-            android:name="com.design.FloatingActionButton.FloatingMainActivity"
-            android:label="@string/floating_action_button" />
-        <activity android:name="com.design.FloatingActionButton.CheeseDetailActivity"
-            android:theme="@style/FloatingActionButton_Demo_Theme"/>
+        <activity android:name="com.support.floating.FloatingMainActivity"/>
     </application>
 
 </manifest>

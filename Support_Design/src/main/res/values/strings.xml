@@ -14,24 +14,29 @@
         https://developer.android.google.cn/topic/libraries/support-library/features.html
         \n\n
         bing 国际搜索 Design Support Library
+
+        ---Material Design Website---
+
+        https://github.com/pinguo-zhouwei/MaterialDesignSamples
+        https://github.com/Luosunce/material-design-data
     </string>
 
-    <!--Floating action button BEGIN-->
-    <string name="floating_action_button">Floating Action Button</string>
+    <!--Project FloatingActionButtonBasic BEGIN-->
+    <string name="floating_button_app_name">FloatingActionButtonBasic</string>
+    <string name="intro_message">
+        <![CDATA[
 
-    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
-    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
-    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
-    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
-    the big cheese.</string>
-    <string name="checkin">Checkin</string>
 
-    <string name="menu_night_mode">Night mode</string>
-    <string name="menu_night_mode_system">Follow system</string>
-    <string name="menu_night_mode_day">Day (always)</string>
-    <string name="menu_night_mode_night">Night (always)</string>
-    <string name="menu_night_mode_auto">Auto</string>
+            This sample shows the two sizes of Floating Action Buttons and how to interact with
+            them.
 
-    <!--Floating action button END-->
+
+        ]]>
+    </string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+    <!--Project FloatingActionButtonBasic END-->
+
+
 
 </resources>

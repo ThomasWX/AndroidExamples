@@ -17,7 +17,7 @@
         android:layout_marginTop="8dp"
 
         android:onClick="onFeatureClick"
-        android:text="@string/floating_action_button"
+        android:text="@string/floating_button_app_name"
 
         app:layout_constraintBottom_toTopOf="@+id/description"
         app:layout_constraintEnd_toEndOf="parent"

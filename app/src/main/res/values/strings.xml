@@ -3,4 +3,11 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    
+    <string name="android_technology">
+        Android Technology Framework
+    \n
+        \t1,
+
+    </string>
 </resources>

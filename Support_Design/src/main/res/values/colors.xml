@@ -3,9 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <!--Floating action button BEGIN-->
 
-    <color name="window_background">#FFF5F5F5</color>
-    <!--Floating action button END-->
+    <!--Project FloatingActionButtonBasic BEGIN-->
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="fab_color_2_muted">#a56ab0</color>
+    <!--Project FloatingActionButtonBasic END-->
 
 </resources>

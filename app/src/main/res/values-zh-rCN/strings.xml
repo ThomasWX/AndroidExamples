@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">安卓技术</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    
+    <string name="android_technology">
+        Android 技术体系框架
+    \n\t
+        1,   基本知识：Activity、Service、ContentProvider、BroadCastReceiver
+    \n\t\t\t 常用组件：TextView、Button、Layout
+    \n\t\t\t 动画及过渡：
+    \n\t\t\t 网络：
+    \n\t\t\t Sqlite：
+    \n\n\t2, 材料设计：Toobar、AppbarLayout...
+    \n\n\t3, Android 架构组件、RxJava、Mvp
+    \n\n\t4, 设计原理：ListView的缓存机制、三级缓存
+    \n\n\t5, 算法
+
+    </string>
+</resources>
