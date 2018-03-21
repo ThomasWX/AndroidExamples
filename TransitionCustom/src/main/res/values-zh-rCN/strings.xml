@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TransitionCustom</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            本示例演示如何创建和使用自定义转换。
+
+
+        ]]>
+    </string>
+    <string name="next_scene">显示下一个场景</string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+</resources>

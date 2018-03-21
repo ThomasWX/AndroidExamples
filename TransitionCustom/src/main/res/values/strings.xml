@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TransitionCustom</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample demonstrates how to create and use a custom Transition.
+
+
+        ]]>
+    </string>
+    <string name="next_scene">Show next scene</string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+</resources>
