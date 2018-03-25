@@ -1,0 +1,27 @@
+
+安装 Android Studio 只需轻松点击几下。（您需要已下载 Android Studio。）
+
+如需在 Windows 系统中安装 Android Studio，请执行以下操作：
+
+启动您下载的 .exe 文件。
+根据安装向导的指示安装 Android Studio 和所有所需的 SDK 工具。
+在有些 Windows 系统中，启动器脚本无法找到 JDK 的安装位置。如果您遇到此问题，您需要设置指示正确位置的环境变量。
+
+选择“Start”菜单 > Computer > System Properties > Advanced System Properties。然后打开“Advanced”选项卡 > Environment Variables，添加指向您的 JDK 文件夹位置（例如 C:\Program Files\Java\jdk1.8.0_77）的新系统变量 JAVA_HOME。
+
+大功告成！下面的视频显示了推荐安装程序的每个步骤。
+
+
+
+
+https://www.mdui.org/design/components/bottom-sheets.html#bottom-sheets-usage
+https://developer.android.google.cn/topic/libraries/architecture/index.html
+https://github.com/Luosunce/material-design-data
+https://github.com/googlesamples/android-architecture-components/blob/master/BasicRxJavaSample/app/build.gradle
+
+https://blog.csdn.net/sunjenry/article/details/78543443?locationNum=3&fps=1
+https://blog.csdn.net/ahence/article/details/77184626
+http://www.cnblogs.com/zqlxtt/p/6895717.html
+https://blog.csdn.net/user11223344abc/article/details/79364274
+https://www.aliyun.com/jiaocheng/7100.html
+https://blog.csdn.net/hubinqiang/article/details/73012336?utm_source=tuicool&utm_medium=referral
