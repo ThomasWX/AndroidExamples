@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wb.choice.MainActivity">
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="300dp"
+        android:text="@string/intro_message"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <!--
+        When a ListView has a choiceMode set, it will allow users to "choose"
+        one or more items. The framework provides default list item layouts
+        that show standard radio buttons or check boxes next to a
+        single line of text:
+        android.R.layout.simple_list_item_single_choice and
+        android.R.layout.simple_list_item_multiple_choice.
+        In some cases, you may want to customize this layout. When doing so,
+        the root view must implement the Checkable interface.
+        Lastly, remember to use padding on your ListViews to adhere to the standard
+        metrics described in the Android Design guidelines. When doing so,
+        you should set the android:scrollbarStyle such that the scrollbar
+        doesn'isn't inset.
+
+    原：
+    <ListView android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/page_margin"
+        android:paddingRight="@dimen/page_margin"
+        android:scrollbarStyle="outsideOverlay"
+        android:choiceMode="multipleChoice" />
+    -->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:choiceMode="multipleChoice"
+        android:paddingLeft="@dimen/page_margin"
+        android:paddingRight="@dimen/page_margin"
+        android:scrollbarStyle="outsideOverlay"
+
+        android:layout_marginTop="@dimen/vertical_page_margin"
+        app:layout_constraintTop_toBottomOf="@id/intro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        />
+
+
+</android.support.constraint.ConstraintLayout>

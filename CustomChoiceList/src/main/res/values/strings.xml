@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">CustomChoiceList</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+                This sample demonstrates how to create custom checkable layouts, for use with ListView\'s choiceMode
+                attribute.
+
+
+        ]]>
+    </string>
+    <string name="introduction">
+        Website:https://github.com/googlesamples/android-CustomChoiceList
+        Title:
+        \n
+        This sample demonstrates how to create custom checkable layouts, for use with ListView\'s choiceMode attribute.
+        \n\n
+        Introduction:
+
+
+        \n
+        This sample demonstrates how to create custom single- or multi-choice ListView UIs on Android.
+        \n\n
+        When a ListView has a android:choiceMode attribute set, it will allow users to "choose" one or more items.
+        For example, refer to res/layout/sample_main.xml in this project:
+        \n\n ListView android:id="@android:id/list"
+            \n\t\t android:layout_width="match_parent"
+            \n\t\t android:layout_height="0dp"
+            \n\t\t android:layout_weight="1"
+            \n\t\t android:paddingLeft="@dimen/page_margin"
+            \n\t\t android:paddingRight="@dimen/page_margin"
+            \n\t\t android:scrollbarStyle="outsideOverlay"
+            \n\t\t android:choiceMode="multipleChoice"
+        \n
+
+        The framework provides these default list item layouts that show standard radio buttons or
+        check boxes next to a single line of text:
+
+        \n\t
+        android.R.layout.simple_list_item_single_choice
+        \n\t
+        android.R.layout.simple_list_item_multiple_choice.
+
+        \n
+        In some cases, you may want to customize this layout. When doing so, the root view must
+        implement the Checkable interface. For an example, see this sample\'s CheckableLinearLayout class.
+
+        \n
+        Lastly, remember to use padding on your ListViews to adhere to the standard metrics described
+        in the Android Design guidelines. When doing so, you should set the android:scrollbarStyle attribute
+        such that the scrollbar doesn\'t inset.
+
+    </string>
+</resources>

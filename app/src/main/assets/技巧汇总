@@ -1,0 +1,34 @@
+1,
+adb logcat | grep enqueueToast
+我们通过logcat就可以看到弹出toast的对应应用的包名，这样就可以让对应负责人进行修改。
+
+2,【渡劫】兰工(部门经理)
+  发现一个新命令：adb shell screenrecord --bugreport /sdcard/test.mp4
+  【渡劫】兰工(部门经理) 2016/11/16 12:00:47
+  可以录屏的时候，显示毫秒，显示当前帧数和掉帧数。
+  【渡劫】兰工(部门经理) 2016/11/16 12:01:15
+  如果高速摄像头紧缺，用这个可以自己看性能
+
+
+3,
+
+抓log的命令：
+
+adb logcat -v time -b radio -b main -b system >adblog
+
+adb logcat -b events -v time >~/events_log.txt
+
+adb logcat -b radio -b main | grep -E "Amigo_SimContacts|RIL_REQUEST_READ_PHB_ENTRY" ----同时抓两个Log的方法。
+
+
+4，
+Android Studio端口5037被占用无法连接手机，解决方案。
+  1、使用doc命令netstat -aon|findstr "5037"查看该端口被哪一个程序所占用。如下所示，查看出的占用该端口的程序的PID号是1524.
+
+  2、在Windows资源管理器中找到PID是1524的程序。
+  3、结束该进程。
+  4、如果是360手机助手占用该端口，无法停止360手机助手进程。可能是360安全卫士自我保护导致，需要进行如下操作。
+  （1）在360设置中心→安全防护中心→自我保护→去掉开启360自我保护；
+  （2）现在可以正常结束360手机助手进程了
+
+

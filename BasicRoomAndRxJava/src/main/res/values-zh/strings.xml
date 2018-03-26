@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Room &amp; RxJava Sample</string>
+
+    <string name="website">https://github.com/googlesamples/android-architecture-components/tree/master/BasicRxJavaSample</string>
+    <string name="readme">
+        网站地址:
+        \n
+        @string/website
+        \n\n
+        标题:
+        \n
+        Room And RxJava Sample
+        \n\t
+        这是一个API示例，用于展示如何使用RxJava的Flowable对象在Room中实现可观察的查询。
+
+        \n
+        介绍:
+        \n\t
+        功能:
+        \n\t\t
+        The sample app shows an editable user name, stored in the database.
+        这个示例App显示了一个可编辑的用户名，并存储在数据库中。
+        \n\t
+        履行:
+        \n\t
+        数据层:
+        \n\t\t
+        数据库是使用Room创建的，并且有一个实体：用户。 Room在运行时生成相应的SQLite表。
+        \n\t\t
+
+
+        查询在UserDao类中执行。 用户检索通过使用Flowable实现的可观察查询完成。 每次用户数据更新时，Flowable对象都会自动发出，
+        允许根据最新数据更新UI。 只有当查询结果至少包含一行时，Flowable才会发出。 当没有数据与查询匹配时，Flowable将不会发射。
+        \n\t
+        表示层:
+        \n\t\t
+        该应用程序有一个显示数据的MainActivity。 该Activity使用ViewModel来执行以下操作：
+        \n\t\t\t
+        订阅用户名称的排放，并在每次发布新用户名时更新UI
+        n\t\t\t
+        当按下“更新”按钮时通知ViewModel并传递新的用户名。 ViewModel使用数据源来获取和保存数据。
+        \n\t\t
+        Room保证可观察的查询将在后台线程上触发。在Activity中，Flowable事件设置为在主线程上接收，因此UI可以更新。
+        插入查询是同步的，因此它被封装在Completable中 在后台线程上执行。 完成后，在主线程上通知Activity。
+    </string>
+</resources>
