@@ -1,7 +1,9 @@
-package com.wb.persistence;
+package com.wb.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.wb.persistence.R;
 
 public class MainActivity extends AppCompatActivity {
 

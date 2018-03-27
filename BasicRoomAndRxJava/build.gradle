@@ -34,7 +34,39 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
-    // Support libraries
-    // Architecture components
+
+
+
+    /*
+ // Architecture components
+    compile deps.lifecycle.runtime
+    compile deps.lifecycle.extensions
+    annotationProcessor deps.lifecycle.compiler
+    compile deps.room.runtime
+    annotationProcessor deps.room.compiler
+    compile deps.room.rxjava2
+
     // RxJava
+    compile deps.rx_android
+    compile deps.rxjava2
+     */
+
+
+
+
+    // Support libraries
+    implementation 'com.android.support:design:26.1.0'
+
+    // Architecture components
+
+    implementation "android.arch.lifecycle:runtime:1.1.1"
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+
+    implementation "android.arch.persistence.room:runtime:1.0.0"
+    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+
+    implementation "android.arch.persistence.room:rxjava2:1.0.0"
+
+
 }

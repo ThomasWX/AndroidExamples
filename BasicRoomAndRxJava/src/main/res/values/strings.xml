@@ -47,4 +47,7 @@
         On completion, the Activity is notified on the main thread.
 
     </string>
+
+
+    <string name="update_user">Update username</string>
 </resources>
