@@ -9,7 +9,7 @@ import android.content.Context;
  * The Room database that contains the Users table
  */
 
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class}, version = 1, exportSchema = false)
 public abstract class UsersDatabase extends RoomDatabase {
     private static volatile UsersDatabase INSTANCE;
 
