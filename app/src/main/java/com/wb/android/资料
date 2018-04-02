@@ -3,22 +3,23 @@ Android 知识体系
 1，材料设计
     https://github.com/Luosunce/material-design-data
 2，架构组件
+https://www.jianshu.com/p/42eb71ec4a19
+http://blog.csdn.net/sunjenry/article/details/78543443?locationNum=3&fps=1
 
+https://github.com/googlesamples/android-architecture-components
 3，底层原理
     例如：ListView、RecycleView底层原理
 4，性能优化
 5，高级算法
 
-
+愚人节 锻炼身体
 --------------------------------------------------------------------
 材料设计：
 https://github.com/pinguo-zhouwei/MaterialDesignSamples
 
 Android 架构组件(AAC)：Android Architecture Components  注重理解
 
-http://blog.csdn.net/sunjenry/article/details/78543443?locationNum=3&fps=1
 
-https://github.com/googlesamples/android-architecture-components
 
 
 RXJava
