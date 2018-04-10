@@ -12,6 +12,15 @@ https://github.com/googlesamples/android-architecture-components
 4，性能优化
 5，高级算法
 
+
+6, 新组件：
+    Android SDK Support Library 内容。
+    1),Custom Tabs :
+       https://github.com/GoogleChrome/custom-tabs-client 官方代码
+       https://blog.csdn.net/just_sanpark/article/details/52249051
+       介绍：简称 CCT，
+
+
 --------------------------------------
 面试：
 
@@ -25,8 +34,10 @@ https://www.jianshu.com/p/cf5092fa2694
 --------------------------------------
 
 Kotlin:
-https://blog.csdn.net/sywubo789/article/details/72625555
+https://try.kotlinlang.org/#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt
 
+https://blog.csdn.net/sywubo789/article/details/72625555
+https://www.jianshu.com/p/f364e3f9cc36
 
 
 源码编译：

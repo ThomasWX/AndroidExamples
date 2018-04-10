@@ -1,11 +1,19 @@
 package com.architecture.page;
 
+import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
+import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
+import android.content.Context;
+import android.support.annotation.NonNull;
 
 /**
  * Singleton database object. Note that for a real app, you should probably use a Dependency
  * Injection framework or Service Locator to create the singleton database.
+ *
+ * https://github.com/googlesamples/android-architecture-components/blob/master/PagingSample/app/src/main/java/paging/android/example/com/pagingsample/CheeseDb.kt
+ *
+ * 本文将kotlin代码转为java
  */
 
 
@@ -14,10 +22,29 @@ public abstract class CheeseDb extends RoomDatabase {
     abstract CheeseDao cheeseDao();
 
 
+    private static CheeseDb instance;
+
+    public static CheeseDb get(final Context context) {
+        if (instance == null) {
+            instance = Room.databaseBuilder(context.getApplicationContext(), CheeseDb.class, "CheeseDatabase").addCallback(new Callback() {
+                @Override
+                public void onCreate(@NonNull SupportSQLiteDatabase db) {
+                    fillInDb(context.getApplicationContext());
+                }
+            }).build();
+        }
+
+        return instance;
+    }
+
+    /**
+     * fill database with list of cheeses
+     */
+    private static void fillInDb(Context applicationContext) {
+        // inserts in Room are executed on the current thread, so we insert in the background
 
 
-    
-
+    }
 
 
     private String[] CHEESE_DATA = {
